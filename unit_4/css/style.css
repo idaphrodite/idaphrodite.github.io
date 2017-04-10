@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Pattaya');
+
+.logo, h1, h2, h3 {
+	font-family: 'Pattaya', sans-serif;
+	font-size: 20px;
+}
+
+nav, p, li, #contact, #footer, .cta {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
