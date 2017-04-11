@@ -1,12 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Pattaya');
-
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	color:rgba(0,0,0,.85);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height:1.3;
+}
+section {
+	padding:4em 0;
+}
 .logo, h1, h2, h3 {
 	font-family: 'Pattaya', sans-serif;
-	font-size: 20px;
 }
-
-nav, p, li, #contact, #footer, .cta {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
+input {
+	display:block;
+	margin-top: .5em;
+}
+ul {
+	padding-left:1.25em;
+}
+#intro {
+	background:purple;
+	padding:10em 0;
+}
+.iframe {
+	pointer-events:none;
 }
