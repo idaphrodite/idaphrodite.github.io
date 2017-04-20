@@ -34,8 +34,11 @@ section {
 }
 
 input {
-	display: block;
+	display: inline-block;
 	margin-top: .5em;
+}
+#contact input {
+	display:block;
 }
 
 li {
@@ -46,10 +49,12 @@ li {
 
 #intro {
 	text-align: center;
-	background: url("idaphrodite.giohub.io/unit_5/images/chips.jpg");
+	background: url("../images/chips.jpg");
 	background-size: cover;
+	/* background-position: center; */
 	display: block;
-	padding: 10em 0;
+	padding: 10em 0 0;
+	height: 90vh;
 }
 
 #about {
@@ -74,7 +79,6 @@ li {
 }
 
 #menu img {
-	height: 425px;
 	width: 282px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
@@ -87,9 +91,7 @@ li {
 
 .iframe {
 	pointer-events:none;
-	float: right;
 	margin-right: 2em;
-	display: inline-block;
 }
 
 a {
