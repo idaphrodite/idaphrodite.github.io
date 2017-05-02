@@ -3,7 +3,7 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 
 header, footer {
-	padding: 1em 0;
+	padding: 1em 2em;
 	background-color: rgba(0,0,0,.85);
 	color: rgb(255,197,13);
 	text-align: center;
@@ -11,9 +11,7 @@ header, footer {
 }
 
 nav {
-	display: inline-block;
 	float: right;
-	margin-right: 5em;
 }
 
 a:hover {
@@ -33,7 +31,7 @@ body {
 }
 
 .logo {
-	float: center;
+	float: left;
 	font-size: 24px;
 }
 
@@ -55,7 +53,8 @@ input {
 li {
 	padding: 2em 2em 2em 2em;
 	list-style: none;
-	display: inline-block;
+	width: 33.33%;
+	float: left;
 }
 
 #intro {
@@ -63,9 +62,8 @@ li {
 	background: url("../images/chips.jpg");
 	background-size: cover;
 	background-position: center;
-	display: block;
 	padding: 10em 0 0;
-	height: 125vh;
+	height: 100vh;
 	color: rgb(255,197,13);
 }
 
@@ -74,15 +72,13 @@ li {
 	background-color: rgb(255,197,13);
 	text-align: right;
 	display: block;
-	margin: 0 5em 0 5em;
 	line-height: 1.5;
 }
 
 #about img {
 	border-radius: 50%;
 	float: right;
-	display: inline-block;
-	width: 232px;
+	width: 33.33%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -96,37 +92,35 @@ h3 {
 }
 
 #menu img {
-	width: 282px;
+	width: 100%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 #contact {
 	padding: 3em 0;
 	background-color: rgb(255,197,13);
-	float: left;
-	margin-left: 2em;
-	display: inline-block;
 }
 
 #contact input {
 	display: block;
 }
 
-div {
-	float: right;
-	line-height: 1.5;
+.wrapper {
+	max-width: 80em;
+	margin: auto;
 }
-
+#about .wrapper {
+	max-width: 60em;
+}
 .iframe {
 	pointer-events:none;
-	float: right;
-	margin-right: 2em;
-	display: inline-block;
 }
 
 a {
 	color: rgb(255,197,13);
 	text-decoration: none;
+	display: inline-block;
+	padding: 1em;
 }
 
 #email {
