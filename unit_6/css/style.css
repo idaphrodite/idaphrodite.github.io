@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Pattaya');
 * {margin:0;padding:0;box-sizing:border-box;}
 
-header, footer {
+footer {
 	padding: 1em 2em;
 	background-color: rgba(0,0,0,.85);
 	color: rgb(255,197,13);
@@ -73,13 +73,16 @@ li {
 	text-align: right;
 	display: block;
 	line-height: 1.5;
+	clear: both;
 }
 
 #about img {
 	border-radius: 50%;
 	float: right;
-	width: 33.33%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	width: 100%;
+	box-shadow: 0 4px 8px 0 
+	rgba(0, 0, 0, 0.5);
+	clear: both;
 }
 
 h3 {
@@ -89,11 +92,14 @@ h3 {
 #menu {
 	padding: 3em 0;
 	text-align: center;
+	clear: both;
 }
 
 #menu img {
 	width: 100%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 0 4px 8px 0 
+	rgba(0, 0, 0, 0.5);
+	clear: both;
 }
 
 #contact {
@@ -101,17 +107,14 @@ h3 {
 	background-color: rgb(255,197,13);
 }
 
-#contact input {
-	display: block;
-}
-
 .wrapper {
 	max-width: 80em;
 	margin: auto;
 }
 #about .wrapper {
-	max-width: 60em;
+	max-width: 50em;
 }
+
 .iframe {
 	pointer-events:none;
 }
