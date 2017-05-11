@@ -203,9 +203,8 @@ a {
 		display: block;
 	}
 
-	.wrapperclearfix li img {
-		width: 100%;
-		align-content: center;
+	input {
+		display: block;
 	}
 
 	#contact {
