@@ -59,6 +59,7 @@ input {
 	margin-top: .5em;
 	margin-top: 10px;
 	font-family: 'Montserrat', sans-serif;
+	width: 50%;
 }
 
 li {
@@ -86,17 +87,17 @@ li {
 #about {
 	padding: 5em 0;
 	background-color: rgb(255,197,13);
-	text-align: right;
+	text-align: left;
 	display: block;
 	line-height: 1.5;
 }
 
 #about img {
 	border-radius: 50%;
-	float: right;
+	float: left;
 	width: 30.33%;
 	margin: 1.5%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }
 
 .column {
@@ -108,23 +109,44 @@ h3 {
 }
 
 #menu {
-	padding: 2em;
+	padding: 5em;
 	text-align: center;
 }
 
 #menu img {
 	width: 100%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }
 
 #contact {
 	column-count: 2;
-	padding: 2em;
+	padding: 4em;
 	background-color: rgb(255,197,13);
 }
 
 #contact input {
 	display: block;
+	width: 100%; 
+	line-height: 2;
+}
+
+textarea {
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+}
+
+#contact .wrapper {
+	width: 50%;
+}
+
+#contact .column {
+	width: 50%;
+	line-height: 1.3;
+}
+
+#contact a {
+	padding: 0;
 }
 
 .wrapper {
@@ -137,7 +159,7 @@ h3 {
 }
 
 .iframe {
-	pointer-events:none;
+	pointer-events: none;
 }
 
 a {
@@ -183,15 +205,17 @@ a {
 	}
 
 	#intro {
-		max-width: 100%;
+		width: 100%;
 	}
 
-	#about {
+	#about .column {
 		padding: 1.5em 0;
+		text-align: center;
 	}
 
 	#about img {
 	    float: none;
+	    width: 50%;
 	}
 
 	.column {
@@ -201,7 +225,7 @@ a {
 
 	#menu {
 		float: none;
-		display: block;
+		display: inline-block;
 	}
 
 	input {
@@ -211,6 +235,7 @@ a {
 	#contact {
 		column-count: 1;
 		text-align: center;
+		padding: 2em;
 	}
 
 	.iframe {
