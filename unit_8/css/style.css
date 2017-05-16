@@ -230,6 +230,7 @@ a {
 
 	input {
 		display: block;
+		width: 100%;
 	}
 
 	#contact {
